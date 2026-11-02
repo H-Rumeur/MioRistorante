@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="upo20058858.ristorante.mioristorantefx2.StatisticheController">
+   <children>
+      <Label fx:id="LabelStatistiche" alignment="CENTER" layoutX="171.0" layoutY="44.0" prefHeight="40.0" prefWidth="258.0" text="STATISTICHE">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="LabelStatM" layoutX="60.0" layoutY="165.0" text="Statistiche Menu" underline="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="LabelStatNP" layoutX="404.0" layoutY="165.0" text="Statistiche Numero Piatti" underline="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ListView fx:id="ListViewStastisticheMenu" layoutX="15.0" layoutY="200.0" prefHeight="300.0" prefWidth="200.0" />
+      <ListView fx:id="ListViewStatisticheNumPiatti" layoutX="386.0" layoutY="200.0" prefHeight="300.0" prefWidth="200.0" />
+   </children>
+</Pane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="PaneOrdinare1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1"
+         fx:controller="upo20058858.ristorante.mioristorantefx2.Ordinare1Controller">
+   <children>
+      <Label alignment="CENTER" layoutX="175.0" layoutY="27.0" prefHeight="40.0" prefWidth="249.0" text="ORDINARE">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="LabelOr" alignment="CENTER" layoutX="143.0" layoutY="126.0" prefHeight="17.0" prefWidth="305.0" text="Sei già iscritto ?? Inserisci il tuo ID!!" />
+      <TextField fx:id="TextfieldIdOrdinare" layoutX="221.0" layoutY="169.0" />
+      <Button fx:id="ButtonIdordinareC" layoutX="270.0" layoutY="262.0" mnemonicParsing="false" onAction="#ClienteEsistente" text="ENTER" />
+   </children>
+</Pane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="upo20058858.ristorante.mioristorantefx2.MainController" >
+   <children>
+      <Label layoutX="217.0" layoutY="151.0" text="HOME PAGE" underline="true">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="28.0" />
+         </font>
+      </Label>
+      <Button fx:id="ButtonInserire" layoutX="247.0" layoutY="219.0" mnemonicParsing="false" onAction="#InserisciCliente" prefHeight="25.0" prefWidth="107.0" text="Inserire Cliente" />
+      <Button fx:id="ButtonRicerca" layoutX="247.0" layoutY="279.0" mnemonicParsing="false" onAction="#RicercareCliente" prefHeight="25.0" prefWidth="107.0" text="Ricercare Cliente" />
+      <Button fx:id="ButtonOrdinare" layoutX="247.0" layoutY="338.0" mnemonicParsing="false" onAction="#Ordinare" prefHeight="25.0" prefWidth="107.0" text="Ordinare" />
+      <Button fx:id="ButtonStatistiche" layoutX="246.0" layoutY="400.0" mnemonicParsing="false" onAction="#StatisticheRistorante" prefHeight="25.0" prefWidth="107.0" text="Statistiche" />
+      <Button fx:id="ButtonExit" layoutX="246.0" layoutY="459.0" mnemonicParsing="false" onAction="#Off" prefHeight="25.0" prefWidth="107.0" text="Exit" />
+      <Label layoutX="48.0" layoutY="24.0" text="SERVIZIO DI RISTORAZIONE DE L'UPO">
+         <font>
+            <Font name="System Bold Italic" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

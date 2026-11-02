@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"UPO20058858.ristorante","l":"Cliente"},{"p":"UPO20058858.ristorante","l":"Controller"},{"p":"UPO20058858.ristorante","l":"Main"},{"p":"UPO20058858.ristorante","l":"Ordine"},{"p":"UPO20058858.ristorante","l":"TestR"},{"p":"UPO20058858.ristorante","l":"View"}];updateSearchResults();
